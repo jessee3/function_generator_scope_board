@@ -1,0 +1,281 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "b343d6ac-c733-49bf-ac80-1d61c4f00e39")
+	(paper "A4")
+	(title_block
+		(title "Oscilloscope & Signal Generator")
+		(date "2024-10-30")
+		(rev "0.1")
+		(company "Prohairesis")
+	)
+	(lib_symbols)
+	(text "[1] Power"
+		(exclude_from_sim no)
+		(at 67.564 41.275 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "23bdd2a6-d823-4cf7-b7ae-31d8ddd61c07")
+	)
+	(text "[3] ADC"
+		(exclude_from_sim no)
+		(at 204.343 41.783 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "4ef4bcfc-4547-4447-9e93-dfae2372e7bd")
+	)
+	(text "Oscilloscope & Signal Generator"
+		(exclude_from_sim no)
+		(at 68.072 21.336 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 1)
+				(bold yes)
+			)
+		)
+		(uuid "582af6b0-f3aa-4647-8b25-94540e63d705")
+	)
+	(text "[4] DAC"
+		(exclude_from_sim no)
+		(at 81.28 108.839 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "a7d86531-0fc3-43a2-bde8-c8b45d147fcb")
+	)
+	(text "[2] MCU"
+		(exclude_from_sim no)
+		(at 135.636 41.91 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "b74449cb-3441-44d2-8bf7-07954bb1ba82")
+	)
+	(text "[5] Mechanical"
+		(exclude_from_sim no)
+		(at 172.212 108.458 0)
+		(effects
+			(font
+				(size 4 4)
+				(thickness 0.6)
+				(bold yes)
+			)
+		)
+		(uuid "c4ca8604-7b8f-4499-a74e-a1aa8f35dd9c")
+	)
+	(sheet
+		(at 149.86 115.57)
+		(size 46.355 43.815)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "35d625d1-79af-4f42-84ca-0a138804e44f")
+		(property "Sheetname" "Mechanical"
+			(at 149.86 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "mechanical.kicad_sch"
+			(at 149.86 159.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed Signal Oscilloscope and Signal Generator Board"
+				(path "/b343d6ac-c733-49bf-ac80-1d61c4f00e39"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 53.34 49.53)
+		(size 43.18 43.18)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "69afe2b3-f829-400b-88bc-581e89a21eb5")
+		(property "Sheetname" "Power"
+			(at 53.34 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 53.34 93.2946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed Signal Oscilloscope and Signal Generator Board"
+				(path "/b343d6ac-c733-49bf-ac80-1d61c4f00e39"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 69.85 115.57)
+		(size 44.45 43.815)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8de19eb5-ff45-4f12-81c0-da4d0aa5d9a2")
+		(property "Sheetname" "DAC"
+			(at 69.85 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 69.85 159.9696 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed Signal Oscilloscope and Signal Generator Board"
+				(path "/b343d6ac-c733-49bf-ac80-1d61c4f00e39"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 121.92 49.53)
+		(size 43.18 41.275)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8fb74774-e4b7-4d86-b825-c9e4841c16ed")
+		(property "Sheetname" "MCU"
+			(at 121.92 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU.kicad_sch"
+			(at 121.92 91.3896 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed Signal Oscilloscope and Signal Generator Board"
+				(path "/b343d6ac-c733-49bf-ac80-1d61c4f00e39"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 193.04 49.53)
+		(size 43.815 40.64)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e880351d-7006-4c0f-9758-aa3fdbd06a58")
+		(property "Sheetname" "ADC"
+			(at 193.04 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 193.04 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Mixed Signal Oscilloscope and Signal Generator Board"
+				(path "/b343d6ac-c733-49bf-ac80-1d61c4f00e39"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
